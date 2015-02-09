@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Beuth Phonebook Server: Search</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<style type="text/css">
+			article {
+				min-width: 400px;
+				max-width: 768px;
+				margin: 0 auto;
+			}
+			section {
+				min-width: 50%;
+				max-width: 80%;
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+			<h1>The Beuth Phonebook Server</h1>
+			<section>
+				<h2>Search</h2>
+				<form action="./search.html" method="GET">
+					<fieldset>
+						<legend>Look up a name or number</legend>
+					<label>Name</label>
+					<input type="text" name="name" value=""/>
+					<label>Number</label>
+					<input type="number" name="number" value=""/>
+					<input type="submit" value="Search"/>
+					</fieldset>
+				</form>
+			</section>
+			<section>
+				<h2>Results</h2>
+				{searchResult}
+				<nav>
+					<a href="./index.html">Zurück</a>
+					<a href="/server/shutdown/">Quit Server</a>
+				</nav>
+			</section>
+		</article>
+	</body>
+</html>

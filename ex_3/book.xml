@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<entries>
+    <entry> 
+        <name>Müller</name>
+        <number>79123</number> 
+    </entry>
+    <entry> 
+        <name>Meier</name>
+        <number>79297</number> 
+    </entry>
+    <entry> 
+        <name>Peter</name>
+        <number>79267</number> 
+    </entry>
+    <entry> 
+        <name>Kalle</name>
+        <number>45664</number> 
+    </entry>
+    <entry> 
+        <name>Erna</name>
+        <number>45669</number> 
+    </entry>
+    <entry> 
+        <name>ÄÖÜß</name>
+        <number>45667</number> 
+    </entry>
+    <entry> 
+        <name>äöuß</name>
+        <number>12345</number> 
+    </entry>
+    <entry> 
+        <name>von Testleertaste</name>
+        <number>79092</number> 
+    </entry>
+    <entry> 
+        <name>Müller</name>
+        <number>79447</number> 
+    </entry>
+    <entry> 
+        <name>Müller</name>
+        <number>79123</number> 
+    </entry>
+    <entry> 
+        <name>Vater</name>
+        <number>79267</number> 
+    </entry>
+    <entry> 
+        <name>Mutter</name>
+        <number>45664</number> 
+    </entry>
+    <entry> 
+        <name>von Hirsch Bach zu Dort</name>
+        <number>56923</number> 
+    </entry>
+</entries>
